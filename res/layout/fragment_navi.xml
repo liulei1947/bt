@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navi_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_navi" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="top"
+        android:orientation="vertical" >
+		<TextView
+            android:id="@+id/tv_navi_main"
+            style="@style/navitext"
+            android:drawableLeft="@drawable/menu_discover_light"
+            android:text="发现"
+            android:drawablePadding="8dp"
+            android:textColor="#FFFFFF" />
+       
+       
+         <TextView
+            android:id="@+id/tv_navi_seePic"
+            style="@style/navitext"
+            android:drawableLeft="@drawable/menu_seepic_light"
+            android:text="看图" 
+            android:drawablePadding="8dp"
+            android:textColor="#FFFFFF"/>
+          <TextView
+            android:id="@+id/tv_navi_feedback"
+            style="@style/navitext"
+            android:drawableLeft="@drawable/menu_fav_light"
+            android:text="收藏" 
+            android:drawablePadding="8dp"
+            android:textColor="#FFFFFF"/>
+       <!--   
+          
+          <TextView
+            android:id="@+id/tv_navi_microVideo"
+            style="@style/navitext"
+            android:drawableLeft="@drawable/menu_collect"
+            android:text="微电影" 
+            android:drawablePadding="8dp"
+            android:textColor="#FFFFFF"/>
+           --> 
+          
+ <TextView
+            android:id="@+id/tv_navi_settings"
+            style="@style/navitext"
+            android:drawableLeft="@drawable/menu_settings_light"
+            android:text="设置"
+            android:drawablePadding="8dp"
+            android:textColor="#FFFFFF" />
+        
+        <TextView
+            android:id="@+id/tv_navi_intro"
+            style="@style/navitext"
+            android:drawableLeft="@drawable/menu_box_light"
+            android:text="推荐" 
+            android:drawablePadding="8dp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_navi_about"
+            style="@style/navitext"
+            android:drawableLeft="@drawable/menu_aboutus_light"
+            android:text="关于"
+            android:drawablePadding="8dp"
+            android:textColor="#FFFFFF" />
+         
+            
+           
+                
+    </LinearLayout>
+
+</RelativeLayout>

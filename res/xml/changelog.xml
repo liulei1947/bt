@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="4.0.7" versioncode="11"  date="8/21/2014">
+        <change>加入动画，交互更有趣</change>
+         <change>加入搜索功能</change>
+          <change>添加首页推荐栏目</change>
+           <change>添加应用使用教程</change>
+            <change>服务器端添加更多种子</change>
+           
+        
+    </release>
+      <release version="1.1.0" versioncode="10"  date="8/21/2014">
+        <change>加入侧滑菜单栏</change>
+        <change>优化UI显示细节</change>
+        <change>修复已知BUG</change>
+    </release>   
+    <release version="1.0.9" versioncode="9"  date="8/20/2014">
+        <change>解决离线不能使用的问题</change>
+        <change>优化UI显示细节</change>
+        <change>修复已知BUG</change>
+    </release>    
+    <release version="1.0.8" versioncode="8" date="8/19/2014">
+        <change>添加更多分类</change>
+      
+    </release>      
+</changelog>

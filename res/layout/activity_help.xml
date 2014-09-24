@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res/com.liulei1947.bt">
+<com.jfeinstein.jazzyviewpager.JazzyViewPager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/jazzy_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+</com.jfeinstein.jazzyviewpager.JazzyViewPager>
+
+<com.viewpagerindicator.CirclePageIndicator
+    android:id="@+id/circle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:layout_marginBottom="70dp"
+    app:fillColor="@color/actionbar_background_end"
+    app:pageColor="@color/center" >
+   
+    >
+</com.viewpagerindicator.CirclePageIndicator>
+
+<TextView
+    android:id="@+id/starmainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:layout_gravity="bottom|center_vertical"
+    android:background="@color/actionbar_background_item_pressed_start"
+    android:gravity="center"
+    android:text="立即体验"
+    android:textColor="@color/msg_color"
+    android:textSize="22sp" />
+
+</FrameLayout>

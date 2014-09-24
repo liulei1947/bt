@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="text_color">#FFFFFF</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#4ac9b4</color>
+     <color name="center">#dddddd</color>
+    <color name="transthoracic">#50000000</color><!-- 半透明 -->
+    <color name="background_window">#FFE5E5E5</color>
+     
+    <color name="btn_press_color">#2b8d7d</color>
+    <color name="btn_unpress_color">#94e4d7</color>
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    
+     <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#427fed</color>
+    <color name="gplus_color_3">#b23424</color>
+    <color name="gplus_color_4">#f4b400</color>
+    
+    <color name="theme_color">#4ac9b4</color>
+    <color name="second_color">#888888</color>
+    <drawable name="bg_ic_navi_normal">#FFFFFF</drawable>
+    <drawable name="bg_ic_navi_pressed">#EEEEEE</drawable>
+</resources>
